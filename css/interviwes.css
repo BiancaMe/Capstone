@@ -1,0 +1,195 @@
+
+
+@media (max-width: 768px) {
+  .hidden {
+    display: none;
+  }
+
+  #interviwes {
+    text-align: center;
+    padding: 5% 5% 5% 5%;
+  }
+
+  #bands-h {
+    font-size: 20px;
+  }
+
+  .hr {
+    display: inline-block;
+    height: 1px;
+    border-radius: 2px;
+    border: none;
+    background-color: rgb(233, 233, 233);
+    width: 40px;
+    left: 1px;
+    text-align: center;
+    color: orangered;
+  }
+
+  .orange {
+    color: orangered;
+  }
+
+  #band-grid {
+    display: grid;
+    list-style: none;
+  }
+
+  .content {
+    text-align: left;
+    margin-top: 40px;
+    padding: 5px;
+    cursor: cell;
+  }
+
+  .band-item {
+    border-radius: 1px;
+    display: flex;
+    padding: 15px;
+    gap: 8px;
+    align-items: center;
+    padding-bottom: 10%;
+  }
+
+  .band-item:hover {
+    background-color: rgb(213, 213, 213);
+  }
+
+  #bg-perfil {
+    position: relative;
+    top: 0;
+    left: 0;
+    cursor: cell;
+  }
+
+  .bg-perfil {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+  }
+
+  .perfil {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+  }
+
+  .name {
+    font-size: 12px;
+  }
+
+  .band-group {
+    font-size: 10px;
+    color: orangered;
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  .i-text {
+    font-size: 8px;
+    color: #656464;
+  }
+}
+
+@media (min-width: 769px) {
+  .hidden {
+    display: none;
+  }
+  
+  #interviwes {
+    text-align: center;
+    padding: 5% 10% 5% 10%;
+  }
+
+  #bands-h {
+    font-size: 24px;
+  }
+
+  .hr {
+    display: inline-block;
+    height: 1px;
+    border-radius: 2px;
+    border: none;
+    background-color: rgb(169, 169, 169);
+    width: 40px;
+    left: 1px;
+    text-align: center;
+  }
+
+  .orange {
+    color: orangered;
+  }
+
+  #band-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    gap: 8px;
+  }
+
+  .content {
+    text-align: left;
+    margin: 60px 40px 10px 40px;
+    cursor: cell;
+  }
+
+  .band-item {
+    border-radius: 1px;
+    display: flex;
+    padding: 15px;
+    gap: 8px;
+    align-items: center;
+    padding-bottom: 10%;
+  }
+
+  .band-item:hover {
+    background-color: rgb(213, 213, 213);
+  }
+
+  #bg-perfil {
+    position: relative;
+    top: 0;
+    left: 0;
+    cursor: cell;
+  }
+
+  .bg-perfil {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+  }
+
+  .perfil {
+    width: 80px;
+    height: 120px;
+    object-fit: cover;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+  }
+
+  .name {
+    font-size: 15px;
+  }
+
+  .band-group {
+    font-size: 12px;
+    color: orangered;
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  .i-text {
+    font-size: 9px;
+    color: #656464;
+  }
+}

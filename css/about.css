@@ -1,0 +1,83 @@
+@media (max-width: 768px) {
+  #about {
+    padding: 50px 15px 60px 15px;
+    text-align: center;
+    background-color: rgb(223, 223, 223);
+    display: flex;
+    justify-content: center;
+  }
+
+  #big-heading-about {
+    font-family: 'Coco', sans-serif;
+    font-size: 35px;
+    color: #ec5242;
+    font-weight: 900;
+  }
+
+  #about-description {
+    border: 1px solid white;
+    background-color: #d3d3d3;
+    color: #848484;
+    font-size: 10px;
+    margin: 0 15% 0 15% ;
+    padding: 20px;
+    margin-top: 3%;
+    text-align: center;
+  }
+
+  #about-p {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    color: rgb(79, 79, 79);
+    margin: 25px 25px 0 25px;
+  }
+
+  #about-email {
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+  }
+}
+
+@media (min-width: 768px) {
+  #about {
+    padding: 50px 15px 60px 15px;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+
+  .small-heading {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ec5242;
+  }
+
+  #big-heading-about {
+    font-family: 'Coco', sans-serif;
+    font-size: 55px;
+    color: #ec5242;
+    font-weight: 900;
+  }
+
+  #about-description {
+    border: 1px solid white;
+    background-color: #d3d3d3;
+    color: #848484;
+    width: 70%;
+    font-size: 15px;
+    padding: 25px;
+    margin: 3% 15% 3% 15%;
+    text-align: center;
+  }
+
+  #about-p {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: rgb(79, 79, 79);
+    margin: 25px 25px 0 25px;
+  }
+
+  #about-email {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+  }
+}

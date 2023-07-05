@@ -1,0 +1,179 @@
+@media (max-width: 768px) {
+  .popUp {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(3px);
+    z-index: 3;
+    visibility: hidden;
+  }
+
+  .open {
+    visibility: visible;
+  }
+
+  .c-popUp {
+    float: right;
+    font-size: 40px;
+    border: none;
+    background: none;
+    margin: 0 12px 0 12px;
+    color: white;
+  }
+
+  .c-popUp:hover {
+    color: orangered;
+  }
+
+  #popUp-c {
+    margin: 5% 10% 5% 10%;
+    text-align: center;
+    background-color: #d3d3d3;
+  }
+
+  #pop-content {
+    padding: 20px;
+  }
+
+  #pop-name {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+  }
+
+  .pop-galery {
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  #pop-band {
+    color: orangered;
+  }
+
+  .pop-img {
+    width: 25%;
+    height: 18%;
+    object-fit: cover;
+    cursor: cell;
+    position: relative;
+    z-index: 1;
+    bottom: -15px;
+  }
+
+  .p-zoom-in-1 {
+    position: relative;
+    width: 65%;
+    height: 50%;
+    object-fit: cover;
+    right: -50px;
+  }
+
+  #inter-content {
+    text-align: left;
+    background-color: #d3d3d3;
+    margin: 20px 20px 50px 20px;
+    padding: 5px;
+    border: 1px solid white;
+  }
+
+  #inter {
+    color: rgb(1, 1, 1);
+    font-weight: 900;
+  }
+
+  #pop-text {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 769px) {
+  .popUp {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(3px);
+    z-index: 3;
+    visibility: hidden;
+  }
+
+  .open {
+    visibility: visible;
+  }
+
+  .c-popUp {
+    float: right;
+    font-size: 40px;
+    border: none;
+    background: none;
+    margin: 0 12px 0 12px;
+    color: white;
+  }
+
+  .c-popUp:hover {
+    color: orangered;
+  }
+
+  #popUp-c {
+    margin: 5% 25% 5% 25%;
+    background-color: #d3d3d3;
+    text-align: center;
+  }
+
+  #pop-content {
+    padding: 20px;
+  }
+
+  #pop-name {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+  }
+
+  .pop-galery {
+    width: 90%;
+    margin: 20px;
+  }
+
+  #pop-band {
+    color: orangered;
+  }
+
+  .pop-img {
+    width: 20%;
+    height: 15%;
+    object-fit: cover;
+    cursor: cell;
+    position: relative;
+    z-index: 1;
+    bottom: -15px;
+  }
+
+  .p-zoom-in-1 {
+    position: relative;
+    width: 50%;
+    height: 40%;
+    object-fit: cover;
+    right: -50px;
+  }
+
+  #inter-content {
+    text-align: left;
+    background-color: #d3d3d3;
+    margin: 20px 20px 50px 20px;
+    padding: 5px;
+    border: 1px solid white;
+  }
+
+  #inter {
+    color: rgb(1, 1, 1);
+    font-weight: 900;
+  }
+
+  #pop-text {
+    font-size: 12px;
+  }
+}
