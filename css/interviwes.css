@@ -1,5 +1,3 @@
-
-
 @media (max-width: 768px) {
   .hidden {
     display: none;
@@ -101,7 +99,7 @@
   .hidden {
     display: none;
   }
-  
+
   #interviwes {
     text-align: center;
     padding: 5% 10% 5% 10%;
