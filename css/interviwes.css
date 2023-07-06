@@ -93,6 +93,11 @@
     font-size: 8px;
     color: #656464;
   }
+
+  #interviwes-section .partner,
+  #interviwes-section .white-end {
+    display: none;
+  }
 }
 
 @media (min-width: 769px) {
@@ -114,7 +119,7 @@
     height: 1px;
     border-radius: 2px;
     border: none;
-    background-color: rgb(169, 169, 169);
+    background-color: orangered;
     width: 40px;
     left: 1px;
     text-align: center;
@@ -189,5 +194,46 @@
   .i-text {
     font-size: 9px;
     color: #656464;
+  }
+
+  .partner {
+    background-color: #272a31;
+    padding: 3% 25% 3% 25%;
+    text-align: center;
+    color: #d3d3d3;
+  }
+
+  .part-h {
+    font-size: 24px;
+  }
+
+  .sponsor {
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .mozilla,
+  .spotify {
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  .google,
+  .youtuve {
+    font-size: 25px;
+  }
+
+  .white-end {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+  }
+
+  .white-end {
+    color: #272a31;
   }
 }
