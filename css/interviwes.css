@@ -226,14 +226,12 @@
   }
 
   .white-end {
-    background-color: #ffffff;
+    background-color: #fff;
     display: flex;
     justify-content: center;
     gap: 30px;
     padding: 20px;
-  }
-
-  .white-end {
     color: #272a31;
   }
+
 }
