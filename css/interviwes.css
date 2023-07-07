@@ -55,18 +55,12 @@
 
   .bg-perfil {
     position: relative;
-    top: 0;
-    left: 0;
-    cursor: cell;
-  }
-
-  .bg-perfil {
-    position: relative;
     width: 120px;
     height: 120px;
     object-fit: cover;
     top: 0;
     left: 0;
+    cursor: cell;
   }
 
   .perfil {
@@ -157,18 +151,12 @@
 
   .bg-perfil {
     position: relative;
-    top: 0;
-    left: 0;
-    cursor: cell;
-  }
-
-  .bg-perfil {
-    position: relative;
     width: 120px;
     height: 120px;
     object-fit: cover;
     top: 0;
     left: 0;
+    cursor: cell;
   }
 
   .perfil {
