@@ -1,0 +1,367 @@
+@media (max-width: 768px) {
+  #about {
+    padding: 50px 15px 60px 15px;
+    text-align: center;
+    background-color: rgb(223, 223, 223);
+    display: flex;
+    justify-content: center;
+  }
+
+  #big-heading-about {
+    font-family: "Coco", sans-serif;
+    font-size: 35px;
+    color: #ec5242;
+    font-weight: 900;
+  }
+
+  #about-description {
+    border: 1px solid white;
+    background-color: #d3d3d3;
+    color: #848484;
+    font-size: 10px;
+    margin: 0 15% 0 15%;
+    padding: 20px;
+    margin-top: 3%;
+    text-align: center;
+  }
+
+  #about-p {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    color: rgb(79, 79, 79);
+    margin: 25px 25px 0 25px;
+  }
+
+  #about-email {
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+  }
+
+  /* ----- Creative and See Mobile ----- */
+
+  .a-div {
+    padding: 5% 10% 5% 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #272a31;
+  }
+
+  #about-h {
+    font-size: 16px;
+    margin: 5%;
+  }
+
+  .a-text {
+    font-size: 8px;
+    color: #7e7d7d;
+    margin-top: 10px;
+  }
+
+  #creative-logo {
+    margin: 30px 0 30px 0;
+  }
+
+  #crea-logo {
+    font-family: "Coco", sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: #ec5242;
+    background-image: url("img/bg-h1.jpg");
+    border: 1px solid #d3d3d3;
+    padding: 15px;
+  }
+
+  .div {
+    background-color: #dfdfdf;
+  }
+
+  #see-galery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 200px;
+    margin-top: 20px;
+  }
+
+  .s-img {
+    text-align: center;
+    width: 100%;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 110px;
+    box-shadow: inset 0 0 0 1000px #ec5342d4;
+  }
+
+  .img-year {
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+  }
+
+  .img-p {
+    color: white;
+    font-weight: 200;
+    font-family: "Coco", sans-serif;
+    font-size: 8px;
+  }
+
+  .sbg-1 {
+    background-image: url(img/see-bg-1.jpg);
+  }
+
+  .sbg-2 {
+    background-image: url(img/see-bg-2.png);
+  }
+
+  #black-end {
+    display: none;
+  }
+
+  .partner {
+    background-color: #272a31;
+    padding: 3% 25% 3% 25%;
+    text-align: center;
+    color: #d3d3d3;
+  }
+
+  .part-h {
+    font-size: 18px;
+  }
+
+  .sponsor {
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .mozilla,
+  .spotify {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .google,
+  .youtuve {
+    font-size: 18px;
+  }
+
+  .organization {
+    margin: 10px;
+    color: #272a31;
+    line-height: 30px;
+    font-family: "Coco", sans-serif;
+  }
+
+  .org-info {
+    margin: 10px;
+    color: #272a31;
+    line-height: 30px;
+    font-size: 12px;
+  }
+
+  .white-end {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+    color: #272a31;
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  #about {
+    padding: 50px 15px 60px 15px;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+
+  .small-heading {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ec5242;
+  }
+
+  #big-heading-about {
+    font-family: "Coco", sans-serif;
+    font-size: 55px;
+    color: #ec5242;
+    font-weight: 900;
+  }
+
+  #about-description {
+    border: 1px solid white;
+    background-color: #d3d3d3;
+    color: #848484;
+    width: 70%;
+    font-size: 15px;
+    padding: 25px;
+    margin: 3% 15% 3% 15%;
+    text-align: center;
+  }
+
+  #about-p {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: rgb(79, 79, 79);
+    margin: 25px 25px 0 25px;
+  }
+
+  #about-email {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+  }
+
+  /* ----- Creative and See ----- */
+
+  .white-end {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    color: #272a31;
+  }
+
+  .partner {
+    background-color: #272a31;
+    padding: 3% 25% 3% 25%;
+    text-align: center;
+    color: #d3d3d3;
+  }
+
+  #about-creative-see-end .partner,
+  #about-creative-see-end .white-end {
+    display: none;
+  }
+
+  .a-div {
+    padding: 5% 25% 5% 25%;
+    text-align: center;
+  }
+
+  #about-h {
+    font-size: 24px;
+  }
+
+  .a-text {
+    font-size: 12px;
+    color: #7e7d7d;
+    margin-top: 20px;
+  }
+
+  #creative-logo {
+    margin: 70px 0 30px 0;
+  }
+
+  #crea-logo {
+    font-family: "Coco", sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: #ec5242;
+    background-image: url("img/bg-h1.jpg");
+    border: 1px solid #d3d3d3;
+    padding: 30px;
+  }
+
+  .div {
+    background-color: #dfdfdf;
+  }
+
+  #see-galery {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    height: 130px;
+    gap: 15px;
+  }
+
+  .s-img {
+    text-align: center;
+    width: 50%;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: inset 0 0 0 1000px #ec5342d4;
+  }
+
+  .img-year {
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+  }
+
+  .img-p {
+    color: white;
+    font-weight: 200;
+    font-family: "Coco", sans-serif;
+    font-size: 12px;
+  }
+
+  .sbg-1 {
+    background-image: url(img/see-bg-1.jpg);
+  }
+
+  .sbg-2 {
+    background-image: url(img/see-bg-2.png);
+  }
+
+  #black-end {
+    background-color: #272a31;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+  }
+
+  .organization {
+    margin: 10px;
+    color: white;
+    line-height: 30px;
+    font-family: "Coco", sans-serif;
+  }
+
+  .org-info {
+    margin: 10px;
+    color: white;
+    line-height: 30px;
+    font-size: 12px;
+  }
+
+  .part-h {
+    font-size: 24px;
+  }
+
+  .sponsor {
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .mozilla,
+  .spotify {
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  .google,
+  .youtuve {
+    font-size: 25px;
+  }
+}

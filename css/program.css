@@ -1,0 +1,145 @@
+@media (max-width: 768px) {
+  #program {
+    background-image: url("img/bk2.jpg");
+    background-size: contain;
+    color: white;
+    text-align: center;
+    padding: 15px;
+  }
+
+  #program-h {
+    font-size: 20px;
+  }
+
+  #program hr {
+    display: inline-block;
+    height: 1px;
+    border-radius: 2px;
+    border: none;
+    background-color: #ec5242;
+    width: 40px;
+    text-align: center;
+    margin: 12px 0 25px 0;
+  }
+
+  #program-grid {
+    display: grid;
+    gap: 8px;
+    list-style: none;
+  }
+
+  .grid-item {
+    background-color: rgba(168, 168, 168, 0.441);
+    border-radius: 1px;
+    display: flex;
+    padding: 15px;
+    gap: 45px;
+    text-align: left;
+    align-items: center;
+  }
+
+  .program-img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+  }
+
+  .cnt-title {
+    width: 50px;
+  }
+
+  .program-title {
+    font-size: 15px;
+    color: #ec5242;
+  }
+
+  .program-p {
+    font-size: 10px;
+  }
+
+  #join {
+    width: 70%;
+    height: 40px;
+    background-color: #ec5242;
+    border: 1px solid #272a31;
+    color: white;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 769px) {
+  #program {
+    background-image: url("img/bk2.jpg");
+    background-size: contain;
+    color: white;
+    text-align: center;
+    padding: 5% 10% 10% 10%;
+  }
+
+  #program-h {
+    font-size: 24px;
+  }
+
+  #program hr {
+    display: inline-block;
+    height: 1px;
+    border-radius: 2px;
+    border: none;
+    background-color: #ec5242;
+    width: 40px;
+    text-align: center;
+    margin: 12px 0 25px 0;
+  }
+
+  #program-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    list-style: none;
+    gap: 8px;
+  }
+
+  .grid-item {
+    background-color: rgba(168, 168, 168, 0.441);
+    border-radius: 1px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .program-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+  }
+
+  .cnt-title {
+    display: flex;
+    width: 50px;
+    justify-content: center;
+  }
+
+  .program-title {
+    font-size: 20px;
+    color: #ec5242;
+  }
+
+  .program-p {
+    font-size: 15px;
+  }
+
+  #join {
+    width: 70%;
+    height: 70px;
+    background-color: #ec5242;
+    border: 1px solid #272a31;
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+}

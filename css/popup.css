@@ -1,0 +1,196 @@
+@media (max-width: 768px) {
+  .popUp {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(3px);
+    z-index: 3;
+    visibility: hidden;
+  }
+
+  .open {
+    visibility: visible;
+  }
+
+  .c-popUp {
+    font-size: 40px;
+    border: none;
+    background: none;
+    margin-left: 90%;
+    color: white;
+  }
+
+  .c-popUp:hover {
+    color: orangered;
+  }
+
+  #popUp-c {
+    margin: 5% 10% 5% 10%;
+    text-align: center;
+    background-image: url(img/pngwing.com.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #e7e6e6;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #pop-content {
+    position: relative;
+    top: -12%;
+  }
+
+  #pop-name {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+  }
+
+  .pop-galery {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #pop-band {
+    color: orangered;
+  }
+
+  .pop-img {
+    position: relative;
+    width: 30%;
+    height: 35%;
+    object-fit: cover;
+    cursor: cell;
+    z-index: 1;
+    border-radius: 50%;
+    top: -20%;
+  }
+
+  .p-zoom-in-1 {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  #inter-content {
+    text-align: left;
+    background-color: #d3d3d3;
+    margin: 5px 15px 0 15px;
+    padding: 5px;
+    border: 1px solid white;
+  }
+
+  #inter {
+    color: rgb(1, 1, 1);
+    font-weight: 900;
+  }
+
+  #pop-text {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 769px) {
+  .popUp {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(3px);
+    z-index: 3;
+    visibility: hidden;
+  }
+
+  .open {
+    visibility: visible;
+  }
+
+  .c-popUp {
+    font-size: 40px;
+    border: none;
+    background: none;
+    margin-left: 90%;
+    color: white;
+  }
+
+  .c-popUp:hover {
+    color: orangered;
+  }
+
+  #popUp-c {
+    margin: 5% 15% 5% 15%;
+    text-align: center;
+    background-image: url(img/pngwing.com.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #e7e6e6;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+  }
+
+  #pop-content {
+    position: relative;
+    top: -15%;
+    margin: 0 15% 0 15%;
+  }
+
+  #pop-name {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+  }
+
+  .pop-galery {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #pop-band {
+    color: orangered;
+  }
+
+  .pop-img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    cursor: cell;
+    z-index: 1;
+    border-radius: 50%;
+    top: -20%;
+  }
+
+  .p-zoom-in-1 {
+    width: 50%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  #inter-content {
+    text-align: left;
+    background-color: #d3d3d3;
+    margin: 5px 15px 0 15px;
+    padding: 5px;
+    border: 1px solid white;
+  }
+
+  #inter {
+    color: rgb(1, 1, 1);
+    font-weight: 900;
+    font-size: 20px;
+  }
+
+  #pop-text {
+    font-size: 15px;
+  }
+}

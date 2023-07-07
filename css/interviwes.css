@@ -1,0 +1,224 @@
+@media (max-width: 768px) {
+  .hidden {
+    display: none;
+  }
+
+  #interviwes {
+    text-align: center;
+    padding: 5% 5% 5% 5%;
+  }
+
+  #bands-h {
+    font-size: 20px;
+  }
+
+  .hr {
+    display: inline-block;
+    height: 1px;
+    border-radius: 2px;
+    border: none;
+    background-color: rgb(233, 233, 233);
+    width: 40px;
+    left: 1px;
+    text-align: center;
+    color: orangered;
+  }
+
+  .orange {
+    color: orangered;
+  }
+
+  #band-grid {
+    display: grid;
+    list-style: none;
+  }
+
+  .content {
+    text-align: left;
+    margin-top: 40px;
+    padding: 5px;
+    cursor: cell;
+  }
+
+  .band-item {
+    border-radius: 1px;
+    display: flex;
+    padding: 15px;
+    gap: 8px;
+    align-items: center;
+    padding-bottom: 10%;
+  }
+
+  .band-item:hover {
+    background-color: rgb(213, 213, 213);
+  }
+
+  .bg-perfil {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    cursor: cell;
+  }
+
+  .perfil {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+  }
+
+  .name {
+    font-size: 12px;
+  }
+
+  .band-group {
+    font-size: 10px;
+    color: orangered;
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  .i-text {
+    font-size: 8px;
+    color: #656464;
+  }
+
+  #interviwes-section .partner,
+  #interviwes-section .white-end {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .hidden {
+    display: none;
+  }
+
+  #interviwes {
+    text-align: center;
+    padding: 5% 10% 5% 10%;
+  }
+
+  #bands-h {
+    font-size: 24px;
+  }
+
+  .hr {
+    display: inline-block;
+    height: 1px;
+    border-radius: 2px;
+    border: none;
+    background-color: orangered;
+    width: 40px;
+    left: 1px;
+    text-align: center;
+  }
+
+  .orange {
+    color: orangered;
+  }
+
+  #band-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    gap: 8px;
+  }
+
+  .content {
+    text-align: left;
+    margin: 60px 40px 10px 40px;
+    cursor: cell;
+  }
+
+  .band-item {
+    border-radius: 1px;
+    display: flex;
+    padding: 15px;
+    gap: 8px;
+    align-items: center;
+    padding-bottom: 10%;
+  }
+
+  .band-item:hover {
+    background-color: rgb(213, 213, 213);
+  }
+
+  .bg-perfil {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    cursor: cell;
+  }
+
+  .perfil {
+    width: 80px;
+    height: 120px;
+    object-fit: cover;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+  }
+
+  .name {
+    font-size: 15px;
+  }
+
+  .band-group {
+    font-size: 12px;
+    color: orangered;
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  .i-text {
+    font-size: 9px;
+    color: #656464;
+  }
+
+  .partner {
+    background-color: #272a31;
+    padding: 3% 25% 3% 25%;
+    text-align: center;
+    color: #d3d3d3;
+  }
+
+  .part-h {
+    font-size: 24px;
+  }
+
+  .sponsor {
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .mozilla,
+  .spotify {
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  .google,
+  .youtuve {
+    font-size: 25px;
+  }
+
+  .white-end {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    color: #272a31;
+  }
+}
