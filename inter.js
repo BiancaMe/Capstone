@@ -190,6 +190,8 @@ function dynamicInter() {
 
   /* ---------- Pop up ------------ */
 
+  const section = document.getElementById('interviwes-section');
+  section.append(inter, partner, white);
   const interv = document.querySelectorAll('.content, .bg-perfil');
 
   function popUp(e) {
