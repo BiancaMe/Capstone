@@ -64,7 +64,6 @@
   }
 
   #crea-logo {
-    padding: 6px;
     font-family: "Coco", sans-serif;
     font-size: 30px;
     font-weight: 900;
@@ -171,7 +170,7 @@
   }
 
   .white-end {
-    background-color: #ffffff;
+    background-color: #fff;
     display: flex;
     justify-content: center;
     gap: 15px;
@@ -179,9 +178,7 @@
     color: #272a31;
     font-size: 10px;
   }
-
 }
-
 @media (min-width: 768px) {
   #about {
     padding: 50px 15px 60px 15px;
@@ -227,6 +224,22 @@
 
   /* ----- Creative and See ----- */
 
+  .white-end {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    color: #272a31;
+  }
+
+  .partner {
+    background-color: #272a31;
+    padding: 3% 25% 3% 25%;
+    text-align: center;
+    color: #d3d3d3;
+  }
+
   #about-creative-see-end .partner,
   #about-creative-see-end .white-end {
     display: none;
@@ -252,7 +265,6 @@
   }
 
   #crea-logo {
-    padding: 6px;
     font-family: "Coco", sans-serif;
     font-size: 50px;
     font-weight: 900;
@@ -330,13 +342,6 @@
     font-size: 12px;
   }
 
-  .partner {
-    background-color: #272a31;
-    padding: 3% 25% 3% 25%;
-    text-align: center;
-    color: #d3d3d3;
-  }
-
   .part-h {
     font-size: 24px;
   }
@@ -358,14 +363,4 @@
   .youtuve {
     font-size: 25px;
   }
-
-  .white-end {
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    padding: 20px;
-    color: #272a31;
-  }
-
 }
