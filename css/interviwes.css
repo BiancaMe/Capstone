@@ -53,7 +53,7 @@
     background-color: rgb(213, 213, 213);
   }
 
-  #bg-perfil {
+  .bg-perfil {
     position: relative;
     top: 0;
     left: 0;
@@ -155,7 +155,7 @@
     background-color: rgb(213, 213, 213);
   }
 
-  #bg-perfil {
+  .bg-perfil {
     position: relative;
     top: 0;
     left: 0;

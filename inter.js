@@ -187,8 +187,42 @@ function dynamicInter() {
   const textw2 = document.createTextNode(' ©Yesterland Inc. Rights Reserved');
   aw2.appendChild(textw2);
   whiteDiv2.appendChild(aw2);
-  const section = document.querySelector('#interviwes-section');
-  section.append(inter, partner, white);
+
+  /* ---------- Pop up ------------ */
+
+  const interv = document.querySelectorAll('.content, .bg-perfil');
+
+  function popUp(e) {
+    const pop = document.querySelector('.popUp');
+    pop.classList.add('open');
+    const i = e.target.parentNode.parentNode;
+    const name = i.querySelector('.name').textContent;
+    const img = i.querySelector('.perfil').src;
+
+    pop.querySelector('#pop-name').innerHTML = name;
+    pop.querySelector('#zoom-in').src = img;
+    pop.querySelector('#pop-band').innerHTML = i.querySelector('.band-group').textContent;
+    pop.querySelector('#pop-text').innerHTML = i.querySelector('.i-text').textContent;
+    pop.querySelector('#zoom-out').src = i.querySelector('.hidden').src;
+  }
+
+  for (let i = 0; i < interv.length; i += 1) {
+    interv[i].addEventListener('click', popUp);
+  }
+
+  const zoom = document.querySelector('#zoom-out');
+  zoom.addEventListener('click', () => {
+    const zoomIn = document.querySelector('#zoom-in');
+    const aux = zoom.src;
+    zoom.src = zoomIn.src;
+    zoomIn.src = aux;
+  });
+
+  const closePopUp = document.querySelector('.c-popUp');
+  closePopUp.addEventListener('click', () => {
+    const close = document.querySelector('.popUp');
+    close.classList.remove('open');
+  });
 }
 
 window.addEventListener('load', dynamicInter);
