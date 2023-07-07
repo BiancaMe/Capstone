@@ -163,7 +163,7 @@ If you like this project you can contac me and let me know.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thanks Microverse for give the oportunity to increase my knowledge
+I would like to thank cc Creative Commons for letting me use their design and let me do some changes in init. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -172,5 +172,6 @@ I would like to thanks Microverse for give the oportunity to increase my knowled
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE.md) licensed.
+This project is [cc Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/#) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
