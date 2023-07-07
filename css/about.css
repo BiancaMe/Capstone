@@ -179,6 +179,7 @@
     font-size: 10px;
   }
 }
+
 @media (min-width: 768px) {
   #about {
     padding: 50px 15px 60px 15px;
