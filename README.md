@@ -3,7 +3,7 @@
 <div align="center">
   <br/>
 
-  <h1><b>Capstone Project</h1>
+  <h1><b>Capstone Project-Yesterland</h1>
 
 </div>
 
@@ -30,9 +30,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 <a name="about-project">Capstone Project</a>
+# 📖 <a name="about-project">Capstone Project-Yesterland</a>
 
-**Portfolio Mobile** is a project from the first module in wich we can apply our knowledge in Flexbox and implement the basics items for a website to mobile-divices.
+**Yesterland** is a project from the first module in wich we can apply our knowledge in Flexbox and implement the basics items for a website to mobile-divices.
 
 ## 🛠 Built With <a name="built-with">HTML5 & CSS3 & JS</a>
 
